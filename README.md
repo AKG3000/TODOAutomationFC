@@ -1,9 +1,14 @@
 # TODOAutomationFC
 
+
+
 1.) Java library API Automation for testing RestFul API
 
 
+
+
 ## Framework Structure
+
 
 1. Maven Framework tool for building and Managing Java RestAPI Project
 2. Rest Assured Library for testing and validating REST services in java
@@ -11,9 +16,9 @@
 4.  Jackson java Library for Serialization and Deserialization
 5.   Owner library for Config handling
 
-### Quick Start
+## Quick Start
 
-  -Prerequisites
+- Prerequisites
 	- Java (version 8 or higher)
 	- Eclipse
 	- Maven
