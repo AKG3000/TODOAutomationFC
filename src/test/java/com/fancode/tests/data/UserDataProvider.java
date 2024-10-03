@@ -19,15 +19,11 @@ public class UserDataProvider {
 		Response response = RequestService.getUsers();
 		String responseBody = response.getBody().asString();
 		List<UserLocation> userLocations = DeserializeUtils.deserializeUserResponse(responseBody);
-		for(UserLocation userLocation:userLocations) {
-			System.out.println(userLocation);
-		}
 		return userLocations;
 	}
 	
 	public List<UserLocation> getUsersFromCity(double minLat,double maxLat,double minLng,double maxLng) throws IOException{
 		List<UserLocation> userLocations = getUsers();
-		
 		List<UserLocation> userLocationsInCity =  UserUtils.filterUsersByGeo(userLocations, minLat, maxLat, minLng, maxLng);
 		return userLocationsInCity;
 	}

@@ -16,8 +16,6 @@ public final class BaseRequestSpecification {
     return RestAssured
       .given()
       .contentType(ContentType.JSON)
-      .baseUri(BASE_URL)
-      .log()
-      .all();
+      .baseUri(BASE_URL);
   }
 }

@@ -6,11 +6,9 @@
 	<artifactId>TODOAUTOMATIONFC</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<extentreport.version>5.0.8</extentreport.version>
 		<restassured.version>5.4.0</restassured.version>
 		<jackson.version>2.17.2</jackson.version>
 		<testng.version>7.7.1</testng.version>
-		<lombok.version>1.18.30</lombok.version>
 		<javafaker.version>1.0.2</javafaker.version>
 		<owner.version>1.0.12</owner.version>
 		<jacksondatabind>2.17.2</jacksondatabind>
@@ -61,16 +59,5 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>${jacksondatabind}</version>
 		</dependency>
-
-
-		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>${lombok.version}</version>
-			<scope>provided</scope>
-		</dependency>
-
-
 	</dependencies>
 </project>

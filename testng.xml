@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="MyTestSuite">
-	<test verbose="2" name="Ankit_Gujar">
+	<test verbose="2" name="ToDoListTests">
 		<classes>
-			<class name="com.fancode.tests.DemoTest" />
+			<class name="com.fancode.tests.TodoTest" />
 		</classes>
 	</test>
 </suite>

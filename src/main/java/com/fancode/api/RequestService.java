@@ -1,8 +1,6 @@
 package com.fancode.api;
 
 import com.fancode.config.factory.ApiConfigFactory;
-
-import io.restassured.RestAssured;
 import io.restassured.response.Response;
 
 public class RequestService {
