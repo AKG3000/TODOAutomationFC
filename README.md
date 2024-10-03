@@ -43,10 +43,26 @@ To verify if Java is installed on your machine and check its version, use the fo
 
 ```bash
 java -version
-
-
+```
 
 For Java installation refer online.
+
+### Eclipse Setup - Run Tests on Eclipse
+
+- Install Eclipse IDE for Java Developers and Projects. You can download it from the Eclipse website [here](https://eclipse.org/downloads/).
+- Go to File > Import.
+- Select Existing Maven Projects under the Maven folder.
+- Click Next, and browse to the location where your TODOAutomationFC project is located.
+- Select the project folder and click Finish.
+- Configure the project Structure (JavaBuildPath => Java version as given above)
+- Install Testng from the Eclipse MarketPlace
+- Accept agreements and certificates for Testng
+- Eclipse will restart for Applying effects for Testng
+- Go to testng.xml in root project
+- Right click and Run as Testng.xml
+
+
+
 
 
 
