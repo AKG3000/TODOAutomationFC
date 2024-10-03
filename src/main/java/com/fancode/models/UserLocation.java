@@ -1,7 +1,10 @@
 package com.fancode.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
+/*
+ * NOTE : This Model is developed for the current requirement
+ * 		  so necessary properties are used for the Users POJO
+ * */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class UserLocation {
 	private int id;

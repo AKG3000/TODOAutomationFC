@@ -1,7 +1,10 @@
 package com.fancode.models;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
+/*
+ * NOTE : This Model is developed for the current requirement
+ * 		  so necessary properties are used for the Todo POJO
+ * */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Todo {
 	private int userId;
