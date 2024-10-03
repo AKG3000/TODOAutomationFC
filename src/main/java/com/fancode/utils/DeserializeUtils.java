@@ -15,14 +15,14 @@ public class DeserializeUtils {
 		return objectMapper.readValue(jsonString, valueType);
 	}
 	
-	// Common method for deserializing a list of objects
+	// Common method for deserializing list of objects
     private static <T> List<T> deserializeList(String jsonResponse, Class<T> valueType) throws IOException {
         return objectMapper.readValue(
                 jsonResponse,
                 objectMapper.getTypeFactory().constructCollectionType(List.class, valueType)
         );
     }
-    /*  NOTE : Can be further maintained seperately in different Files.For assignment purpose 
+    /*  NOTE : Can be further maintained separately in different Files.For assignment purpose 
      *         Keeping it in the same file.
      * */
     public static List<UserLocation> deserializeUserResponse(String jsonResponse) throws IOException {
