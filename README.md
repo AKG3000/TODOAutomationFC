@@ -68,14 +68,22 @@ For Java installation refer online.
 - Install Maven zip for Apache Maven Community from (here)(https://maven.apache.org/download.cgi)
 - Add path to the Env Variables so that maven cli is accessible to the terminal(Check online to add path)
 - Check whether Maven is installed
+  
   ```bash
   mvn -version
   ```
 - To Run the Tests on the terminal , Open terminal and go to the Project root directory
 - Run the following command to run the tests through maven
+  
   ```bash
   mvn clean test
   ```
+
+### NOTE: Following Services are not included in the project
+
+- Listeners Service (Listens to every event that occurs in testng)
+- Extent Reporters Service (Reporters for the Test Results - Currently we have default reporter)
+- Assertions Service (Inbuilt Assertions for better Readability)
 
 
 
