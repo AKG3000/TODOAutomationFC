@@ -55,11 +55,30 @@ For Java installation refer online.
 - Click Next, and browse to the location where your TODOAutomationFC project is located.
 - Select the project folder and click Finish.
 - Configure the project Structure (JavaBuildPath => Java version as given above)
+- Maven clean the project
 - Install Testng from the Eclipse MarketPlace
 - Accept agreements and certificates for Testng
 - Eclipse will restart for Applying effects for Testng
 - Go to testng.xml in root project
 - Right click and Run as Testng.xml
+
+
+### Run Test cases from the Terminal(only Maven)
+
+- Install Maven zip for Apache Maven Community from (here)(https://maven.apache.org/download.cgi)
+- Add path to the Env Variables so that maven cli is accessible to the terminal(Check online to add path)
+- Check whether Maven is installed
+  ```bash
+  mvn -version
+  ```
+- To Run the Tests on the terminal , Open terminal and go to the Project root directory
+- Run the following command to run the tests through maven
+  ```bash
+  mvn clean test
+  ```
+
+
+
 
 
 
