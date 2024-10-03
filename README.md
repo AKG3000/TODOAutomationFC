@@ -18,21 +18,27 @@
 
 ## Quick Start
 
+
 - Prerequisites
 	- Java (version 8 or higher)
 	- Eclipse
 	- Maven
 	- TestNG
 
+
 # Setup for TODOAutomationFC on your machine
 
+
 ## Initial Setup
+
 
 ### Clone TODOAutomationFC on your machine
 
 This will take some time .Let it run in the background
 
+
 ### Install JAVA Version if not installed(Maven version compatibility)
+
 
 Maven 3.9.9 is compatible with the following Java versions:
 - **Java 8**
