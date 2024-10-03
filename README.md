@@ -5,11 +5,11 @@
 
 ## Framework Structure
 
-1.) Maven Framework tool for building and Managing Java RestAPI Project
-2.) Rest Assured Library for testing and validating REST services in java
-3.) TestNg testing Framework for Testing API's like JUnit
-4.) Jackson java Library for Serialization and Deserialization
-5.) Owner library for Config handling
+1. Maven Framework tool for building and Managing Java RestAPI Project
+2. Rest Assured Library for testing and validating REST services in java
+3.  TestNg testing Framework for Testing API's like JUnit
+4.  Jackson java Library for Serialization and Deserialization
+5.   Owner library for Config handling
 
 ### Quick Start
 
