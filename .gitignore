@@ -19,3 +19,6 @@ buildNumber.properties
 .settings/
 test-output/
 .DS_Store
+.metadata/
+build.properties
+META-INF/MANIFEST.MF
